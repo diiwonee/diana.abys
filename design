@@ -1,1 +1,65 @@
-/* General Styles */ body { font-family: "Arial", sans-serif; margin: 0; padding: 0; text-align: center; background-color: #f5e6fe; /* Light lavender */ color: #4a2c6b; /* Dark lavender */ } /* Header */ header { background-color: #b58ed2; /* Soft lavender */ color: white; padding: 30px; font-size: 1.5em; } /* Navigation */ nav { margin-top: 50px; } .button { display: block; width: 250px; margin: 15px auto; padding: 15px; background-color: #7a4eb4; color: white; text-decoration: none; font-size: 1.2em; border-radius: 8px; transition: 0.3s; } .button:hover { background-color: #5a357f; }
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Overall dark lavender background for the page */
+body {
+  background-color: #9b6e9d;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: white;
+}
+
+/* Container for inner content */
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Inner container with soft lavender background */
+.inner-container {
+  background-color: #d3a6d6;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 70%;
+}
+
+/* Bubbly button style */
+.bubble-button {
+  background-color: #d3a6d6;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #6c3e5f;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.bubble-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background-color: #9b6e9d;
+  color: white;
+}
+
+.bubble-button:active {
+  transform: translateY(2px);
+  box-shadow: none;
+}
+
+
