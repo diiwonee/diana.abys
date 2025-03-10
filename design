@@ -1,11 +1,9 @@
-/* Reset some default browser styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Overall dark lavender background for the page */
 body {
   background-color: #9b6e9d;
   font-family: 'Arial', sans-serif;
@@ -16,7 +14,6 @@ body {
   color: white;
 }
 
-/* Container for inner content */
 .container {
   width: 100%;
   height: 100%;
@@ -25,7 +22,6 @@ body {
   align-items: center;
 }
 
-/* Inner container with soft lavender background */
 .inner-container {
   background-color: #d3a6d6;
   padding: 30px;
@@ -38,7 +34,6 @@ body {
   width: 70%;
 }
 
-/* Bubbly button style */
 .bubble-button {
   background-color: #d3a6d6;
   border: none;
